@@ -17,6 +17,8 @@ public abstract class General implements Servicable {
     }  public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
+
+    public abstract void service();
 }
 
 

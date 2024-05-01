@@ -5,6 +5,8 @@ public abstract class BigTransport extends General {
         super(modelName, wheelsCount);
     }
 
+    public abstract void service();
+
     @Override
     public void check() {
         super.check();
